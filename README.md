@@ -5,6 +5,8 @@
 
 ---
 
+This is my website that i have made for the class Web and Script Programming - INFR3120
+
 **Viewport Dimensions:**  
 
 **Mobile (max-width: 599px)**  
