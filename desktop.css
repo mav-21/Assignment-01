@@ -1,0 +1,9 @@
+:root {--max:1024px;} /* setting a larger max width for desktops */
+
+body,header,main,footer {max-width:var(--max); margin:0 auto;} /* centering and widening my layout for desktops */
+
+header {padding:18px;} /* increasing the header padding for desktops */
+
+main {padding:18px;} /* increasing main content padding for desktops */
+
+.box {padding:18px;} /* giving boxes more padding on desktops */

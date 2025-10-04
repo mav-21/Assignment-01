@@ -1,0 +1,26 @@
+:root { /* defining my color scheme */
+    --bg:#0a0f1f; --text:#fff; --primary:#2e7ff6; --accent:#f18f01; --surface:#11172b;
+  }
+
+  body {margin:0; font-family:Arial; background:var(--bg); color:var(--text);} /* resetting body and setting background + text color */
+
+  header {padding:12px; background:linear-gradient(135deg,var(--primary),var(--accent)); color:#fff;} /* giving header angled gradient */
+
+  nav ul {list-style:none; padding:0; margin:0;} /* removing bullets from nav */
+
+  nav li {display:inline; margin-right:8px;} /* laying out nav links horizontally */
+
+  nav a {color:#fff; text-decoration:none;} /* making nav links white */
+
+  main {padding:12px;} /* adding some space inside  main content */
+
+  .box {padding:12px; border-radius:8px; background:linear-gradient(180deg,var(--surface),rgba(17,23,43,.2));} /* adding a vertical gradient box */
+
+  footer {text-align:center; padding:12px; border-top:1px solid rgba(255,255,255,.2);} /* centering and styling footer */
+
+  input,textarea,button {width:100%; margin-top:4px; padding:8px;} /* making form elements full width */
+
+  input,textarea {background:#0e1429; border:1px solid #374061; color:var(--text);} /* styling my text inputs */
+
+  button {background:var(--primary); color:#fff; border:0; cursor:pointer;} /* styling my button with primary color */
+  

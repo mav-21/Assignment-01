@@ -1,0 +1,44 @@
+<!DOCTYPE html> <!-- I’m telling the browser this is an HTML5 document -->
+<html lang="en"> <!-- The page content is in English -->
+
+<head> <!-- Head section starts here -->
+  <meta charset="UTF-8" /> <!-- Sets character encoding so text shows properly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Makes the page adjust on phones and tablets -->
+  <title>About Me</title> <!-- The title that appears in the browser tab -->
+  <link rel="stylesheet" href="style.css"> <!-- Linking my base stylesheet -->
+  <link rel="stylesheet" href="mobile.css" media="(max-width: 599px)"> <!-- Loads the mobile CSS file for small screens -->
+  <link rel="stylesheet" href="tablet.css" media="(min-width: 600px) and (max-width: 1023px)"> <!-- Tablet layout stylesheet -->
+  <link rel="stylesheet" href="desktop.css" media="(min-width: 1024px)"> <!-- Desktop layout stylesheet -->
+</head>
+
+<body> <!-- Page content starts here -->
+
+<header> <!-- Header area -->
+  <h1>About Me</h1> <!-- The main heading -->
+  <nav aria-label="Main"> <!-- Navigation bar -->
+    <ul> <!-- Unordered list for nav links -->
+      <li><a href="index.html">Home</a></li> <!-- Link to Home page -->
+      <li><a aria-current="page" href="about.html">About Me</a></li> <!-- Current page link marked active -->
+      <li><a href="projects.html">Projects</a></li> <!-- Projects page link -->
+      <li><a href="contact.html">Contact Me</a></li> <!-- Contact page link -->
+    </ul>
+  </nav> <!-- Navigation ends -->
+</header>
+
+<main> <!-- Main content of the page -->
+  <article> <!-- grouping “About Me” -->
+    <h2>About me!</h2></h2> <!-- Sub-heading-->
+    <img src="myphoto.png" alt="Photo of me" width="200" style="border-radius: 8px;"> <!-- photo w rounded corners -->
+    <p>Hi, I’m Alex! I’m a second-year Networking and IT Security student at Ontario Tech University. I love working with tech—whether it’s setting up networks, troubleshooting, or learning new ways to keep systems secure.
+        This portfolio is a place to share some of the projects I’ve worked on and the skills I’m building along the way. I’m excited about where this field is heading and can’t wait to keep growing and tackling new challenges in IT!</p> 
+  </article>
+  <video width="320" controls> <!-- embedding video -->
+    <source src="Untitled video.mp4" type="video/mp4"> <!-- video file -->
+  </video>
+</main>
+
+<footer> <!-- Footer section -->
+    <p>© 2025 • by Alex Younis -> <a href="mailto:alexander.younis@ontariotechu.net">alexander.younis@ontariotechu.net</a></p> <!-- Footer text and email link -->
+</footer>
+</body> <!-- End of body -->
+</html> <!-- End of HTML document -->

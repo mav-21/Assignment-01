@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!-- I’m telling the browser this is an HTML5 document -->
+<html lang="en"> <!-- The page content is in English -->
+
+<head> <!-- Head section starts here -->
+  <meta charset="UTF-8" /> <!-- Sets character encoding so text shows properly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Makes the page scale on phones and tablets -->
+  <title>Home</title> <!-- This is the title that shows on the browser tab -->
+  <link rel="stylesheet" href="style.css"> <!-- Linking my base stylesheet -->
+  <link rel="stylesheet" href="mobile.css" media="(max-width: 599px)"> <!-- Loads the mobile CSS file for small screens -->
+  <link rel="stylesheet" href="tablet.css" media="(min-width: 600px) and (max-width: 1023px)"> <!-- Tablet layout stylesheet -->
+  <link rel="stylesheet" href="desktop.css" media="(min-width: 1024px)"> <!-- Desktop layout stylesheet -->
+</head>
+
+<body> <!-- Page content starts here -->
+
+<header> <!-- Header area -->
+  <h1>My Portfolio</h1> <!-- The main heading at the top -->
+  <nav aria-label="Main"> <!-- Navigation bar -->
+    <ul> <!-- Unordered list to hold nav links -->
+      <li><a aria-current="page" href="index.html">Home</a></li> <!-- Home as current page -->
+      <li><a href="about.html">About Me</a></li> <!-- Link to About Me page -->
+      <li><a href="projects.html">Projects</a></li> <!-- Link to Projects page -->
+      <li><a href="contact.html">Contact Me</a></li> <!-- Contact page link -->
+    </ul>
+  </nav>
+</header>
+
+<main> <!-- Main body content -->
+  <section class="box"> <!-- section with box class - styling -->
+    <h2>Welcome to my portfolio!</h2> <!-- Section heading -->
+    <p>This website is to showcase my work, information about me, projects I have done in the past and a way to contact me!</p> <!-- Short intro paragraph -->
+    <p>Enjoy!</p>
+  </section>
+</main>
+
+<footer> <!-- Footer starts here -->
+    <p>© 2025 • by Alex Younis -> <a href="mailto:alexander.younis@ontariotechu.net">alexander.younis@ontariotechu.net</a></p> <!-- Footer text and email link -->
+</footer>
+
+</body> <!-- Closing the body -->
+</html> <!-- End of document -->

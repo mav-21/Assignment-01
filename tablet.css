@@ -1,0 +1,9 @@
+:root {--max:760px;} /* max width for tablet screens */
+
+body,header,main,footer {max-width:var(--max); margin:0 auto;} /* centering content on tablet */
+
+header {padding:16px;} /* giving header more space on tablet */
+
+main {padding:16px;} /* giving main content more space on tablet */
+
+.box {padding:16px;} /* increasing padding for boxes on tablet */

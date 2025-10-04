@@ -1,0 +1,41 @@
+/* Root color variables for consistent scheme */
+:root{
+    --bg:#0a0f1f; --text:#f5f7ff; --primary:#2e7ff6; --accent:#f18f01; --surface:#11172b;
+  }
+  
+  /* Reset box sizing */
+  html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}
+  
+  /* Body styles */
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+  
+  /* Header with angled gradient */
+  header{padding:12px;background:linear-gradient(135deg,var(--primary),var(--accent));color:white}
+  
+  /* Nav list reset */
+  nav ul{list-style:none;margin:8px 0 0;padding:0}
+  nav li{display:inline;margin-right:8px}
+  nav a{color:#fff;text-decoration:none}
+  
+  /* Main padding */
+  main{padding:12px}
+  
+  /* Box with vertical gradient */
+  .box{padding:12px;border-radius:8px;background:linear-gradient(180deg,var(--surface),rgba(17,23,43,.2))}
+  
+  /* Footer */
+  footer{padding:12px;text-align:center;border-top:1px solid rgba(255,255,255,.15)}
+  
+  /* Form elements */
+  input,textarea,button{width:100%}
+  input,textarea{padding:8px;margin-top:4px;background:#0e1429;border:1px solid #374061;color:var(--text)}
+  button{padding:8px;border:0;background:var(--primary);color:#fff;cursor:pointer}
+  
+  /* Responsive media queries */
+  @media (min-width:600px) and (max-width:1023px){
+    main,header,footer{max-width:760px;margin:0 auto} /* Tablet centered */
+  }
+  
+  @media (min-width:1024px){
+    main,header,footer{max-width:1024px;margin:0 auto} /* Desktop wider */
+  }

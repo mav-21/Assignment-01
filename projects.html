@@ -1,0 +1,57 @@
+<!DOCTYPE html> <!-- I’m telling the browser this is an HTML5 document -->
+<html lang="en"> <!-- The page content is in English -->
+
+<head> <!-- Head section starts here -->
+  <meta charset="UTF-8" /> <!-- Sets character encoding so text shows properly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Makes the layout responsive for all devices -->
+  <title>Projects</title> <!-- Title that shows on the browser tab -->
+  <link rel="stylesheet" href="style.css"> <!-- Linking my base stylesheet -->
+  <link rel="stylesheet" href="mobile.css" media="(max-width: 599px)"> <!-- Loads the mobile CSS file for small screens -->
+  <link rel="stylesheet" href="tablet.css" media="(min-width: 600px) and (max-width: 1023px)"> <!-- Tablet layout stylesheet -->
+  <link rel="stylesheet" href="desktop.css" media="(min-width: 1024px)"> <!-- Desktop layout stylesheet -->
+
+<body> <!-- Page content starts here -->
+
+<header> <!-- Header area -->
+  <h1>Projects</h1> <!-- Main heading for this page -->
+  <nav aria-label="Main"> <!-- Navigation bar -->
+    <ul>
+      <li><a href="index.html">Home</a></li> <!-- Link back to Home -->
+      <li><a href="about.html">About Me</a></li> <!-- Link to About Me page -->
+      <li><a aria-current="page" href="projects.html">Projects</a></li> <!-- current page -->
+      <li><a href="contact.html">Contact Me</a></li> <!-- Link to Contact page -->
+    </ul>
+  </nav>
+</header>
+
+<main> <!-- Main content area -->
+  <section> <!-- all project articles -->
+    <article> <!-- First project -->
+      <h2>1) Keylogger using Python</h2> <!-- Project title -->
+      <p>For this project, I created a simple keylogger to learn how keystroke logging works at a basic level. I used Python libraries to capture and record keyboard input, saving the data into a file. This project helped me understand how such tools are built, the potential risks they pose, and the importance of cybersecurity measures to defend against them.</p> <!-- Description of project -->
+    </article>
+    <article> <!-- Second project -->
+      <h2>2) Website using HTML & CSS</h2>
+      <p>In this project, I built a multi-page website using HTML and CSS. I focused on structuring content clearly with HTML and adding style and layout through CSS. This allowed me to practice the fundamentals of front-end development, experiment with responsive design, and gain a better understanding of how websites are created from the ground up.</p>
+    </article>
+    <article> <!-- Third project -->
+      <h2>3) Packet Sniffing with Wireshark</h2>
+      <p>Used Wireshark to capture and analyze network traffic. Learned how to filter packets, identify protocols in use, and detect potential vulnerabilities. This project strengthened my understanding of how data moves across a network and how to spot unusual activity.</p>
+    </article>
+    <article> <!-- Fourth project -->
+      <h2>4) Home Network Setup & Configuration</h2>
+      <p>Configured a small home network with a router and switch. Assigned IP addresses, set up DHCP, and tested connectivity across multiple devices. Secured the network with WPA2 encryption and practiced basic troubleshooting.</p>
+    </article>
+    <article> <!-- Fifth project -->
+      <h2>5) Virtual Private Network (VPN) Lab</h2>
+      <p>Set up a simple VPN connection on a virtual machine. Tested remote access and encryption to see how VPNs secure communication over the internet.</p>
+    </article>
+  </section>
+</main>
+
+<footer> <!-- Footer section -->
+    <p>© 2025 • by Alex Younis -> <a href="mailto:alexander.younis@ontariotechu.net">alexander.younis@ontariotechu.net</a></p> <!-- Footer with email link -->
+</footer>
+
+</body> <!-- Closing body -->
+</html> <!-- End of HTML -->
